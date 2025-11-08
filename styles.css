@@ -24,6 +24,10 @@ img {
   border-radius: 7px 7px 0px 0px;
 }
 
+.desktopImg {
+  display: none;
+}
+
 .textContent {
   padding: 1.7rem;
 }
@@ -100,6 +104,31 @@ p {
 .button:hover,
 .button:focus {
   background-color: hsl(158, 42%, 18%);
+}
+
+@media (min-width: 600px) {
+    .mobileImg {
+      display: none;
+    }
+
+    .desktopImg {
+      display: inline;
+      max-width: 50%;
+      border-radius: 7px 0px 0px 7px;
+      float: left;
+    }
+
+    .productCard {
+      max-width: 600px;
+      background-color: white;
+    }
+
+    .textContent {
+      max-width: 50%;
+      height: auto;
+      display: inline-block;
+    }
+
 }
 
 footer {
