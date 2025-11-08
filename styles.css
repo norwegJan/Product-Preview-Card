@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.productCard {
+  background-color: white;
+  margin: auto;
+  max-width: 300px;
+  margin-top: 70px;
+  border-radius: 7px;
+}
+
+.mobileImg {
+  border-radius: 7px 7px 0px 0px;
+}
+
+.textContent {
+  padding: 1.7rem;
+}
+
+.category {
+  font-family: montserrat;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-family: fraunces;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+  font-family: montserrat;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1rem;
+}
+
+.price {
+  margin-bottom: 1rem;
+}
+
+.discountPrice {
+  font-family: fraunces;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  vertical-align: middle;
+  padding-right: 1rem;
+}
+
+.ordinaryPrice {
+  font-family: montserrat;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  vertical-align: middle;
+  text-decoration-line: line-through;
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  text-align: center;
+  font-family: montserrat;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.carticon {
+  display: inline-block;
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+.buttontext {
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:focus {
+  background-color: hsl(158, 42%, 18%);
+}
+
+footer {
+  margin-top: 300px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
